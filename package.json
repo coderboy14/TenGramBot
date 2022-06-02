@@ -1,0 +1,31 @@
+{
+  "name": "tengrambot",
+  "version": "0.0.1-indev",
+  "description": "A Telegram bot framework written in TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderboy14/TenGramBot.git"
+  },
+  "keywords": [
+    "typescript",
+    "telegram",
+    "bot",
+    "framework"
+  ],
+  "author": "Alex Wolfe <contact@amazedkeys.com> (https://amazedkeys.com/)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/coderboy14/TenGramBot/issues"
+  },
+  "homepage": "https://github.com/coderboy14/TenGramBot#readme",
+  "dependencies": {
+    "@types/socket.io-client": "^3.0.0",
+    "axios": "^0.27.2",
+    "socket.io-client": "^4.5.1",
+    "websocket-ts": "^1.1.1"
+  }
+}
